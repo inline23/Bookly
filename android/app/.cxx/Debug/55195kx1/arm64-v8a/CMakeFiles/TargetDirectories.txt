@@ -1,0 +1,2 @@
+C:/waleed/programming/flutter/bookly_app/Bookly/android/app/.cxx/Debug/55195kx1/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/waleed/programming/flutter/bookly_app/Bookly/android/app/.cxx/Debug/55195kx1/arm64-v8a/CMakeFiles/rebuild_cache.dir
