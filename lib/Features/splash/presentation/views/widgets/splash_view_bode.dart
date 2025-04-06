@@ -25,6 +25,7 @@ class _SplashViewBodeState extends State<SplashViewBode>
 
     Future.delayed(const Duration(seconds: 2), () {
       // Get.to(() => HomeView() , transition: Transition.fade , duration: kTransitionDuration );
+      // ignore: use_build_context_synchronously
       GoRouter.of(context).push(AppRouter.kHomeView);
     });
   }
