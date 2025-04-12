@@ -1,4 +1,6 @@
+import 'image_links.dart';
 import 'industry_identifier.dart';
+import 'panelization_summary.dart';
 import 'reading_modes.dart';
 
 class VolumeInfo {
@@ -9,10 +11,16 @@ class VolumeInfo {
   String? description;
   List<IndustryIdentifier>? industryIdentifiers;
   ReadingModes? readingModes;
+  int? pageCount;
   String? printType;
+  List<String>? categories;
+  num? averageRating;
+  num? ratingsCount;
   String? maturityRating;
   bool? allowAnonLogging;
   String? contentVersion;
+  PanelizationSummary? panelizationSummary;
+  ImageLinks? imageLinks;
   String? language;
   String? previewLink;
   String? infoLink;
@@ -26,10 +34,16 @@ class VolumeInfo {
     this.description,
     this.industryIdentifiers,
     this.readingModes,
+    this.pageCount,
     this.printType,
+    this.categories,
+    this.averageRating,
+    this.ratingsCount,
     this.maturityRating,
     this.allowAnonLogging,
     this.contentVersion,
+    this.panelizationSummary,
+    this.imageLinks,
     this.language,
     this.previewLink,
     this.infoLink,
@@ -49,10 +63,21 @@ class VolumeInfo {
             ? null
             : ReadingModes.fromJson(
                 json['readingModes'] as Map<String, dynamic>),
+        pageCount: json['pageCount'] as int?,
         printType: json['printType'] as String?,
+        categories: json['categories'] as List<String>?,
+        averageRating: json['averageRating'] as num?,
+        ratingsCount: json['ratingsCount'] as num?,
         maturityRating: json['maturityRating'] as String?,
         allowAnonLogging: json['allowAnonLogging'] as bool?,
         contentVersion: json['contentVersion'] as String?,
+        panelizationSummary: json['panelizationSummary'] == null
+            ? null
+            : PanelizationSummary.fromJson(
+                json['panelizationSummary'] as Map<String, dynamic>),
+        imageLinks: json['imageLinks'] == null
+            ? null
+            : ImageLinks.fromJson(json['imageLinks'] as Map<String, dynamic>),
         language: json['language'] as String?,
         previewLink: json['previewLink'] as String?,
         infoLink: json['infoLink'] as String?,
@@ -68,10 +93,16 @@ class VolumeInfo {
         'industryIdentifiers':
             industryIdentifiers?.map((e) => e.toJson()).toList(),
         'readingModes': readingModes?.toJson(),
+        'pageCount': pageCount,
         'printType': printType,
+        'categories': categories,
+        'averageRating': averageRating,
+        'ratingsCount': ratingsCount,
         'maturityRating': maturityRating,
         'allowAnonLogging': allowAnonLogging,
         'contentVersion': contentVersion,
+        'panelizationSummary': panelizationSummary?.toJson(),
+        'imageLinks': imageLinks?.toJson(),
         'language': language,
         'previewLink': previewLink,
         'infoLink': infoLink,
