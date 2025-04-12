@@ -7,5 +7,4 @@ abstract class HomeRepo {
   Future<Either<Failure, List<BookEntity>>> fetchNewestBooks();
 }
 
-
 // Here we write what is the method is done in my Feature

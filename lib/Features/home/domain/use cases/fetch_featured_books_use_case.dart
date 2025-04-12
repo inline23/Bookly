@@ -4,7 +4,7 @@ import 'package:bookly_app/core/errors/failure.dart';
 import 'package:bookly_app/core/use_cases/use_case.dart';
 import 'package:dartz/dartz.dart';
 
-class FetchFeaturedBooksUseCase extends UseCase<List<BookEntity> , NoParam> {
+class FetchFeaturedBooksUseCase extends UseCase<List<BookEntity>, NoParam> {
   final HomeRepo homeRepo;
 
   FetchFeaturedBooksUseCase({required this.homeRepo});
