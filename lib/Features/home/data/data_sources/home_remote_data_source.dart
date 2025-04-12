@@ -34,7 +34,7 @@ class HomeRemoteDataSourceImpl extends HomeRemoteDataSource {
             'volumes?q=programming&sorting=newest:keyes&key=AIzaSyDr0B91qJY1wAPA8saY8MUCgcnH8Mmo00U');
 
     List<BookEntity> books = getBooksList(data);
-
+    saveBooksData(books, kNewestBox);
     return books;
   }
 
