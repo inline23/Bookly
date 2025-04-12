@@ -6,7 +6,7 @@ import 'package:bookly_app/core/utils/functions/save_books.dart';
 import 'package:hive_flutter/adapters.dart';
 
 abstract class HomeRemoteDataSource {
-  Future<List<BookEntity>> fetchFeatureBooks();
+  Future<List<BookEntity>> fetchFeaturedBooks();
   Future<List<BookEntity>> fetchNewestBooks();
 }
 
@@ -15,7 +15,7 @@ class HomeRemoteDataSourceImpl extends HomeRemoteDataSource {
   HomeRemoteDataSourceImpl(this.apiService);
 
   @override
-  Future<List<BookEntity>> fetchFeatureBooks() async {
+  Future<List<BookEntity>> fetchFeaturedBooks() async {
     var data = await apiService.get(
         endPoint:
             'volumes?q=programming:keyes&key=AIzaSyDr0B91qJY1wAPA8saY8MUCgcnH8Mmo00U');
