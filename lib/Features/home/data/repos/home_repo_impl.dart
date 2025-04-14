@@ -18,14 +18,14 @@ class HomeRepoImpel extends HomeRepo {
   Future<Either<Failure, List<BookEntity>>> fetchFeatureBooks() async {
     try {
       List<BookEntity> books;
-      books = await homeLocalDataSource.fetchFeaturedBooks();
+      books =  homeLocalDataSource.fetchFeaturedBooks();
       if (books.isNotEmpty) {
         return right(books);
       }
       books = await homeRemoteDataSource.fetchFeaturedBooks();
       return right(books);
     } catch (e) {
-      if (e is DioError) {
+      if (e is DioException) {
         return left(ServerFailure.fromDioError(e));
       }
       return left(ServerFailure(e.toString()));
@@ -36,14 +36,14 @@ class HomeRepoImpel extends HomeRepo {
   Future<Either<Failure, List<BookEntity>>> fetchNewestBooks() async {
     try {
       List<BookEntity> books;
-      books = await homeLocalDataSource.fetchNewestBooks();
+      books =  homeLocalDataSource.fetchNewestBooks();
       if (books.isNotEmpty) {
         return right(books);
       }
       books = await homeRemoteDataSource.fetchNewestBooks();
       return right(books);
     } catch (e) {
-      if (e is DioError) {
+      if (e is DioException) {
         return left(ServerFailure.fromDioError(e));
       }
       return left(ServerFailure(e.toString()));
