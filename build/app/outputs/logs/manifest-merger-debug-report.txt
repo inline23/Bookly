@@ -27,6 +27,7 @@ INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\de
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 MERGED from [:path_provider_android] C:\waleed\programming\flutter\bookly_app\Bookly\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] C:\waleed\programming\flutter\bookly_app\Bookly\build\sqflite_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\pc\.gradle\caches\transforms-3\9538daff4e9ef0a4b05e0a50995f4b80\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\c3a683aa38502c877d0e98df302f70cd\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\a82bbfafc2495400d5814adf6bf1b82e\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
@@ -83,6 +84,8 @@ INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\de
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml
 MERGED from [:path_provider_android] C:\waleed\programming\flutter\bookly_app\Bookly\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] C:\waleed\programming\flutter\bookly_app\Bookly\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] C:\waleed\programming\flutter\bookly_app\Bookly\build\sqflite_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] C:\waleed\programming\flutter\bookly_app\Bookly\build\sqflite_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\pc\.gradle\caches\transforms-3\9538daff4e9ef0a4b05e0a50995f4b80\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\pc\.gradle\caches\transforms-3\9538daff4e9ef0a4b05e0a50995f4b80\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\c3a683aa38502c877d0e98df302f70cd\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
