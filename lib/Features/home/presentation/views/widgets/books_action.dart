@@ -2,7 +2,10 @@ import 'package:bookly_app/core/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class BooksAction extends StatelessWidget {
-  const BooksAction({super.key});
+  const BooksAction({super.key , required this.price});
+
+  final String price;
+  
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +15,7 @@ class BooksAction extends StatelessWidget {
         children: [
           Expanded(
             child: CustomButton(
-              text: '19.99\$',
+              text: price,
               backgroundColor: Colors.white,
               textColor: Colors.black,
               borderRadius: BorderRadius.only(
