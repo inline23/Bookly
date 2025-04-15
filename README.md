@@ -1,16 +1,11 @@
 # bookly_app
 
-A new Flutter project.
+The Bookly app is built using the Google Books API to display free books.
+I've included a section for the latest books on the home page. I used clean
+architecture, a Rest API, Hive local storage to cache data, and block state
+management. The app supports light and night modes, and can be set to
+either Arabic or English.
 
-## Getting Started
+<img width="359" alt="Screenshot 2025-04-15 034527" src="https://github.com/user-attachments/assets/d4ca3e49-2c7b-4abc-8300-631b7491b7dd" />
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="306" alt="Screenshot 2025-04-15 043403" src="https://github.com/user-attachments/assets/4aeb3a7c-757f-470c-a1e5-c2003591bd18" />
