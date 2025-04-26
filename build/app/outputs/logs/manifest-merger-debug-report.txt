@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:2:5-33:19
+INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:5:5-37:19
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml
 MERGED from [androidx.window:window:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\c3a683aa38502c877d0e98df302f70cd\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\c3a683aa38502c877d0e98df302f70cd\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
@@ -21,8 +21,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pc
 	android:name
 		INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:1:1-45:12
-MERGED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:1:1-45:12
+ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:1:1-49:12
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -62,22 +62,24 @@ MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\pc\.gradle\caches
 		INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:1:11-69
-queries
-ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:39:5-44:15
-intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:40:9-43:18
-action#android.intent.action.PROCESS_TEXT
-ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:41:13-72
-	android:name
-		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:41:21-70
-data
-ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:42:13-50
-	android:mimeType
-		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:42:19-48
 uses-permission#android.permission.INTERNET
-ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:3:5-66
+MERGED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:3:5-66
+MERGED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:3:5-66
 	android:name
-		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:3:22-64
+queries
+ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:43:5-48:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:44:9-47:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:45:21-70
+data
+ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:46:13-50
+	android:mimeType
+		ADDED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\main\AndroidManifest.xml:46:19-48
 uses-sdk
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\waleed\programming\flutter\bookly_app\Bookly\android\app\src\debug\AndroidManifest.xml
